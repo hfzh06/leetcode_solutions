@@ -32,8 +32,8 @@ public:
             }
             else{
                 fast = fast->next;
-                slow = fast;
             }
+            slow = fast;
         } 
         return pre_head->next;
     }
